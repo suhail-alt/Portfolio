@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Portfolio</title>
+
+    <style>
+        body{
+            background-image: url("gradient-geometric-shapes-dark-background_23-2148434188.avif");
+            background-size: cover;
+            height: 100vh;
+        }
+        .jumbotron{
+          width: 65rem;
+        }
+
+        
+        .profile-pic{
+            height: 20rem;
+            border-radius: 5%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Navbar text with an inline element
+            </span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- body -->
+      
+        <div class="container my-5 jumbotron " data-bs-theme="dark">
+          <div class="p-4 text-center bg-body-tertiary rounded-3">
+            <img class = "profile-pic" src="me.jpg" alt="profile-pic">
+            <h1 class="text-body-emphasis">Suhail Ali</h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+              This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+            </p>
+          </div>
+        </div>
+    <
+
+       
+
+     <!-- Footer -->
+     <div class="container" data-bs-theme="dark">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" >
+          <p class="col-md-4 mb-0 text-body-secondary"></p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end" >
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">
+                Contact Me: 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto: mohammedsuhailali3@gmail.com" class="nav-link px-2 text-body-secondary">
+                <img src="gmail.svg" alt="gmail logo" height="20rem">
+              </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/suhail-alt" class="nav-link px-2 text-body-secondary" >
+                    <img src="github.svg" alt="github logo" >
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/suhail-ali-637682218/" class="nav-link px-2 text-body-secondary" > 
+                     <img src="linkedin.svg" alt="linkedin logo">
+                </a>
+            </li>
+
+          </ul>
+        </footer>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
